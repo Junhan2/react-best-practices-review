@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "react-best-practices-review",
-      "source": "."
+      "source": "./"
     }
   ]
 }
