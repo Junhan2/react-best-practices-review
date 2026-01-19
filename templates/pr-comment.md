@@ -1,6 +1,6 @@
 ## 🔍 React Best Practices Review
 
-**Reviewed by**: [react-best-practices-review](https://github.com/gangjoon/react-best-practices-review) plugin
+**Reviewed by**: [react-best-practices-review](https://github.com/Junhan2/react-best-practices-review) plugin
 **Confidence threshold**: ≥{{threshold}}%
 
 ### 📊 Summary

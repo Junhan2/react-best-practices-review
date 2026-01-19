@@ -19,13 +19,13 @@
 ### From GitHub
 
 ```bash
-claude /plugins add https://github.com/gangjoon/react-best-practices-review
+claude /plugins add https://github.com/Junhan2/react-best-practices-review
 ```
 
 ### Local Installation
 
 ```bash
-git clone https://github.com/gangjoon/react-best-practices-review
+git clone https://github.com/Junhan2/react-best-practices-review
 claude /plugins add ./react-best-practices-review
 ```
 
