@@ -16,53 +16,71 @@
 
 ## Installation
 
-### From GitHub
+### Step 1: Add Marketplace
 
 ```bash
-claude /plugins add https://github.com/Junhan2/react-best-practices-review
+/plugin marketplace add Junhan2/react-best-practices-review
 ```
 
-### Local Installation
+### Step 2: Install Plugin
 
 ```bash
+/plugin install react-best-practices-review@react-best-practices
+```
+
+### Alternative: Local Installation
+
+```bash
+# Clone repository
 git clone https://github.com/Junhan2/react-best-practices-review
-claude /plugins add ./react-best-practices-review
+
+# Run Claude with plugin
+claude --plugin-dir ./react-best-practices-review
+```
+
+### Verify Installation
+
+```bash
+# List installed plugins
+/plugin list
 ```
 
 ## Usage
+
+> **Note**: All commands are run inside a Claude Code session.
 
 ### Full Review (Recommended)
 
 ```bash
 # 전체 리뷰 (신뢰도 ≥80)
-claude /react-review
+/react-review
 
 # 특정 경로만 리뷰
-claude /react-review src/components/
+/react-review src/components/
 
 # 리포트 파일 생성
-claude /react-review --output=file
+/react-review --output=file
 ```
 
 ### Quick Review
 
 ```bash
 # 빠른 리뷰 (CRITICAL/HIGH만, 신뢰도 ≥90)
-claude /react-review-quick
+/react-review-quick
 ```
 
 ### PR Review with GitHub Comment
 
 ```bash
 # PR 리뷰 + GitHub 댓글 자동 작성
-claude /react-review-pr 123
+/react-review-pr 123
 ```
 
 ### List All Rules
 
 ```bash
 # 규칙 목록 조회
-claude /react-rules
+/react-rules
 ```
 
 ## Specialized Agents
